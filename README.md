@@ -27,10 +27,11 @@ The scripts train and test model with 10 fold cross validation and plot a compar
 * **IMP_height.txt** - *Inputs of imputed genotype matrix.*
 * **QA_height.txt** - *Inputs of quality assured non-imputed genotype matrix.*
 
-'''
+```
 cd HEIGHT
 python height.py
-'''
+
+```
 
 ## Authors
 
