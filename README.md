@@ -1,8 +1,9 @@
 # Genomic selection using deep learning and saliency map
 
-We provide a deep-learning method to predict five 	quantitative traits (Yield, Protein, Oil, Moisture and Plant height) of SoyNAM dataset.
+We provide a deep-learning method to predict five quantitative traits (Yield, Protein, Oil, Moisture and Plant height) of SoyNAM dataset.
 We also applied saliency map approach measure phenotype contribution for genome wide association study. 
-The program is implemented using Keras2.0 and Tensorflow backend with python 2.7
+The program is implemented using Keras2.0 and Tensorflow backend with python 2.7.
+See [1] for the full method.
 
 ### Prerequisites
 
@@ -39,6 +40,9 @@ python height.py
 * **Email** - *ylmk2@mail.missouri.edu* 
 * **Email** - *yanglou1990@gmail.com*
 
+## References
+
+ * [1] Liu, Yang, et al. "Phenotype prediction and genome-wide association study using deep convolutional neural network of soybean." Frontiers in genetics 10 (2019): 1091. [here](https://www.frontiersin.org/articles/10.3389/fgene.2019.01091)
 
 ## License
 GNU v2.0
